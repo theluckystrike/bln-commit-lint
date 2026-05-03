@@ -1,0 +1,26 @@
+name: "BeLikeNative Commit Lint"
+description: >
+  Check commit messages for grammar, format, and clarity.
+  L1-aware suggestions for non-native English speakers.
+  Powered by BeLikeNative.
+
+branding:
+  icon: "check-circle"
+  color: "blue"
+
+inputs:
+  github-token:
+    description: "GitHub token for API access (usually secrets.GITHUB_TOKEN)"
+    required: true
+  enforce-conventional:
+    description: "Fail the check if commits do not follow Conventional Commits format"
+    required: false
+    default: "false"
+  max-subject-length:
+    description: "Maximum allowed subject line length"
+    required: false
+    default: "72"
+
+runs:
+  using: "node20"
+  main: "src/index.mjs"
