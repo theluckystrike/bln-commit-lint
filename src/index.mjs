@@ -115,6 +115,9 @@ function hasErrors(results) {
  * Main action entry point.
  */
 async function run() {
+  console.assert(core != null, 'core module must be loaded');
+  console.assert(github != null, 'github module must be loaded');
+
   const inputs = readInputs();
   const prContext = extractPRContext();
 
