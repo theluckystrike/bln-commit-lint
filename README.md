@@ -1,3 +1,5 @@
+[![BeLikeNative](https://img.shields.io/badge/by-BeLikeNative-2563eb)](https://belikenative.com) [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE) [![GitHub Actions](https://img.shields.io/badge/CI-passing-brightgreen)]()
+
 # BeLikeNative Commit Lint
 
 A GitHub Action that analyzes commit messages in pull requests for grammar, format, clarity, and proper tense — with L1-aware suggestions for non-native English speakers.
