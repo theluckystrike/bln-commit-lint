@@ -1,5 +1,6 @@
 {
   "name": "bln-commit-lint",
+  "repository": {"type": "git", "url": "theluckystrike/bln-commit-lint.git"},
   "version": "1.0.0",
   "description": "GitHub Action: Lint commit messages for grammar, format & clarity with L1-aware suggestions. Powered by BeLikeNative.",
   "type": "module",
